@@ -1,0 +1,54 @@
+[gd_scene load_steps=2 format=3 uid="uid://vewmccnct10o"]
+
+[ext_resource type="Script" path="res://Scripts/Creditos.gd" id="1_cglpo"]
+
+[node name="Creditos" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cglpo")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 341.0
+offset_top = 109.0
+offset_right = 896.0
+offset_bottom = 183.0
+text = "CREDITOS: "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 337.0
+offset_top = 163.0
+offset_right = 876.0
+offset_bottom = 213.0
+text = "JOSHUA DIAZ SANCHEZ - 216817775
+Laisha Fernanda Roque Venegas - 217727893
+Yessica Guadalupe Ramírez Varela - 217727664"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 316.0
+offset_top = 413.0
+offset_right = 899.0
+offset_bottom = 479.0
+
+[node name="mp" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "MENU PRINCIPAL"
+
+[node name="saS" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "SALIR "
+
+[connection signal="pressed" from="VBoxContainer/mp" to="." method="_on_mp_pressed"]
+[connection signal="pressed" from="VBoxContainer/saS" to="." method="_on_sa_s_pressed"]

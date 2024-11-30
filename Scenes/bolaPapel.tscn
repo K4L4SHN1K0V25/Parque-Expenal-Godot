@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://diln0fcqkboby"]
+
+[ext_resource type="ArrayMesh" path="res://Assets/papel_nuevo.res" id="1_a2ds7"]
+[ext_resource type="Script" path="res://Scripts/bolaPapel.gd" id="1_en2qg"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_18u7c"]
+
+[node name="Area3D" type="Area3D"]
+script = ExtResource("1_en2qg")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.875, 0, 0, 0, 0.875, 0, 0, 0, 0.875, 0, 0, 0)
+mesh = ExtResource("1_a2ds7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(3.75548, 0, 0, 0, 4.27586, 0, 0, 0, 3.61621, 0, 0, 0)
+shape = SubResource("SphereShape3D_18u7c")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
