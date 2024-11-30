@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8f0nvik4vrwm"
+path="res://.godot/imported/bote verde.obj-3ff3743f8d5a0172dcb300c4452b695b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bote verde.obj-3ff3743f8d5a0172dcb300c4452b695b.mesh"]
+
+source_file="res://models blender/bote verde.obj"
+dest_files=["res://.godot/imported/bote verde.obj-3ff3743f8d5a0172dcb300c4452b695b.mesh", "res://.godot/imported/bote verde.obj-3ff3743f8d5a0172dcb300c4452b695b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

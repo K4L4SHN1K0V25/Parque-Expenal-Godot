@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cousakiw0wct6"
+path="res://.godot/imported/banquita madera.obj-17cf8b77d54279003785ca25a511cd2e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/banquita madera.obj-17cf8b77d54279003785ca25a511cd2e.mesh"]
+
+source_file="res://models blender/banquita madera.obj"
+dest_files=["res://.godot/imported/banquita madera.obj-17cf8b77d54279003785ca25a511cd2e.mesh", "res://.godot/imported/banquita madera.obj-17cf8b77d54279003785ca25a511cd2e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
